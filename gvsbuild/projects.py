@@ -414,7 +414,7 @@ class Project_fontconfig(Tarball, Meson):
             archive_url="https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.13.94.tar.gz",
             hash="246d1640a7e54fba697b28e4445f4d9eb63dda1b511d19986249368ee7191882",
             dependencies=["freetype", "libxml2"],
-            patches=["002-add-face-substitute.patch"]
+            patches=["002-add-face-substitute.patch"],
         )
 
     def build(self):
